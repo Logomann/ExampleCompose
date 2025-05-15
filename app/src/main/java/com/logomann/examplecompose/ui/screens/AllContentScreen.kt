@@ -16,8 +16,6 @@ import com.logomann.examplecompose.ui.ContentItem
 fun AllContentScreen(
     // viewModel: AllContentViewmodel = koinViewModel()
 ) {
-    val snackbarHostState = remember { SnackbarHostState() }
-    val scope = rememberCoroutineScope()
     //Здесь список сделал через remember, потому что нужно хранить состояние,
     // но хранение состояния нужно передать вьюмодели
     // val state = viewModel.state.collectAsState()
