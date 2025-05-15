@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExampleCompose</string>
+    <string name="all_content">Все</string>
+    <string name="favourite_content">Избранное</string>
+</resources>
